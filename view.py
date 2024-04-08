@@ -2,10 +2,6 @@
 import sqlite3 as lite  # Importando SQLite
 import pandas as pd
 
-
-""" Projeto: Controle de Despesas Pessoal
-    @Autor: Wenes Aquino   
-           """
 # -----------------------------------------------------------------------------
 # Criando Coneccao
 con = lite.connect('dados.db')
