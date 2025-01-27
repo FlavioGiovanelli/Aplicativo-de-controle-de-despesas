@@ -42,7 +42,7 @@ colors = ['#4583de', '#ff5747', '#68c985', '#ee9944', '#444466', '#bb5555']
 janela = Tk()
 
 # Icone do aplicativo e da barra de titulo
-janela.iconbitmap('image/icone.ico')
+janela.iconbitmap('Projetos\Aplicativo-de-controle-de-despesas\image\icone.ico')
 
 janela.title("Minhas Finanças")
 janela.geometry('870x680')
@@ -77,7 +77,7 @@ frame_gra_2.place(x=415, y=5)
 
 
 # Acessando Imagem
-app_img = Image.open('image/logo.png')
+app_img = Image.open('Projetos\Aplicativo-de-controle-de-despesas\image\logo.png')
 app_img = app_img.resize((45, 45))
 app_img = ImageTk.PhotoImage(app_img)
 
@@ -451,7 +451,7 @@ e_valor_despesas.place(x=110, y=101)
 
 
 # Botao Inserir----------------------------------------------------------------
-img_add_despesas = Image.open('image/add.png')
+img_add_despesas = Image.open('Projetos\Aplicativo-de-controle-de-despesas\image/add.png')
 img_add_despesas = img_add_despesas.resize((17, 17))
 img_add_despesas = ImageTk.PhotoImage(img_add_despesas)
 botao_inserir_despesas = Button(frame_operacoes, command=inserir_despesas_b, image=img_add_despesas, compound=LEFT, anchor=NW, text="".upper(), width=19, overrelief=RIDGE,  font=('Geometria 7 bold'), bg=co1, fg=co0)
@@ -464,7 +464,7 @@ l_excluir.place(x=10, y=190)
 
 
 # Botao Excluir----------------------------------------------------------------
-img_delete = Image.open('image/delete.png')
+img_delete = Image.open('Projetos\Aplicativo-de-controle-de-despesas\image\delete.png')
 img_delete = img_delete.resize((17, 17))
 img_delete = ImageTk.PhotoImage(img_delete)
 botao_deletar = Button(frame_operacoes, command=deletar_dados, image=img_delete, compound=LEFT, anchor=NW, text="".upper(), width=19, overrelief=RIDGE,  font=('Geometria 7 bold'), bg=co1, fg=co0)
@@ -491,7 +491,7 @@ e_valor_receitas.place(x=110, y=71)
 
 
 # Botao Inserir----------------------------------------------------------------
-img_add_receitas = Image.open('image/add.png')
+img_add_receitas = Image.open('Projetos\Aplicativo-de-controle-de-despesas\image/add.png')
 img_add_receitas = img_add_receitas.resize((17, 17))
 img_add_receitas = ImageTk.PhotoImage(img_add_receitas)
 botao_inserir_receitas = Button(frame_configuracao, command=inserir_receitas_b, image=img_add_receitas, compound=LEFT, anchor=NW, text="".upper(), width=19, overrelief=RIDGE,  font=('Geometria 7 bold'), bg=co1, fg=co0)
@@ -506,7 +506,7 @@ e_categoria.place(x=110, y=160)
 
 
 # Botao Inserir----------------------------------------------------------------
-img_add_categoria = Image.open('image/add.png')
+img_add_categoria = Image.open('Projetos\Aplicativo-de-controle-de-despesas\image/add.png')
 img_add_categoria = img_add_categoria.resize((17, 17))
 img_add_categoria = ImageTk.PhotoImage(img_add_categoria)
 botao_inserir_categoria = Button(frame_configuracao, command=inserir_categoria_b, image=img_add_categoria, compound=LEFT, anchor=NW, text="".upper(), width=19, overrelief=RIDGE,  font=('Geometria 7 bold'), bg=co1, fg=co0)
